@@ -17,6 +17,11 @@ body {
     font-size: 20px; 
     
 }
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 700;
+    color: #174561;
+}
 .navbar {
     background-color: #fff;
     padding: 10px;
@@ -91,7 +96,7 @@ body {
 .text-block {
     position: absolute;
     left: 100px;
-    bottom: 350px;
+    bottom: 250px;
     background-image: linear-gradient(90deg, rgb(221 200 200 / 63%) 0%, rgb(193 154 154 / 26%) 100%);
     padding: 20px;
     width: 350px;
@@ -106,10 +111,12 @@ body {
 }
 
 /* Companies Slider */
-.companies {
+.companies_wrapper {
     padding-top: 150px;
+    background-color: #f4f5f9;
+
 }
-.companies h2{
+.companies_wrapper h2{
     text-align: center;
     font-size: 40px;
     color: #174561;
@@ -155,4 +162,17 @@ body {
 }
 .copy{
     padding-top: 250px;
+}
+
+/* DEALS */
+
+.deals{
+    margin-top: 100px;
+}
+
+/* ABOUT US */
+.about_wrapper{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #f4f5f9;
 }
